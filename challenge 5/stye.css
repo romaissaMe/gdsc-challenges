@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    width: 40%;
+    height: 40%;
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    text-align: center;
+    color: #865416;
+}
+.pass-container{
+    height: 30px;
+    border: #865416 double 2px;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow:0px 10px 13px -7px #a09485;
+}
+.generate{
+    padding: 0px;
+    display: block;
+}
+#btn{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    background-color: #865416;
+    color: #e6dfd6;
+    margin: auto;
+    padding: 0px;
+    align-self: center;
+    margin-bottom: 20px !important;
+    cursor: pointer;
+    box-shadow:0px 10px 13px -7px #6d3d0394;
+}
+#result{
+    text-align: center;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#length{
+    height: 20px;
+    width: 45px;
+}

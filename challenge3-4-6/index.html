@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <div class="login">
+            <form method="post">
+                <div class="input-container">
+                 <input type="text" id="name" placeholder="Nom">
+                </div>
+                <div class="input-container">
+                    <input type="text" id="prenom" placeholder="Prenom">
+                </div>
+                
+                <div class="input-container">
+                    <input type="email" id="emailField" placeholder="admin@gmail.com">
+                    <span id="copy"><i class="ri-clipboard-line" style="color: #a09485;"></i></span>
+                </div>
+                
+                <span id="response"></span>
+                <div class="input-container">
+                    <input type="password" id="password" placeholder="password">   
+                    <span id="show" class="icons"><i class="ri-eye-line" style="color: #a09485;"></i></span>
+                </div>
+                <button type="submit" id="submit-btn">Se Connecter</button>
+            </form>
+        
+        <div class="right">
+            
+        </div>
+      </div>  
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
